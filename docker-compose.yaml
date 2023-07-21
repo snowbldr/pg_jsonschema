@@ -5,7 +5,7 @@ services:
     container_name: pg_jsonschema_db
     build:
         context: .
-        dockerfile: ./dockerfiles/db/Dockerfile
+        dockerfile: Dockerfile
     ports:
       - 5407:5432
     healthcheck:

@@ -5,7 +5,7 @@ services:
     container_name: pg_jsonschema_test
     build:
         context: ..
-        dockerfile: ./dockerfiles/db/Dockerfile
+        dockerfile: ../Dockerfile
     environment:
       USER: postgres
     command:

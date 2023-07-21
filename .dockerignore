@@ -1,7 +1,9 @@
 .benchmarks
 .git/
 .github/
-dockerfiles/
+.idea/
+.ci/
+Dockerfile
 .gitignore
 *.md
 *.yaml
